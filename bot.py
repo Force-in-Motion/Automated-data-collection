@@ -1,6 +1,8 @@
 import asyncio
-from aiogram import Bot,Dispatcher
-from src.utils.file_utils import FileUtils as fu
+
+from aiogram import Bot, Dispatcher
+
+from utils.file_utils import FileUtils as fu
 
 
 async def main() -> None:
