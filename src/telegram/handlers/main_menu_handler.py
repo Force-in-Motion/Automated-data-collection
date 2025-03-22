@@ -20,7 +20,7 @@ async def start_handler(message: types.Message) -> None:
 
 @router.message(F.text.lower() == 'главное меню')
 @router.message(Command('menu'))
-async def main_menu_handler(message: type.Message, state: FSMContext) -> None:
+async def main_menu_handler(message: types.Message, state: FSMContext) -> None:
     """
     Обрабатывает команду возврата в главное меню, сбрасывает все стейты
     :param message: Принимает сообщение пользователя
